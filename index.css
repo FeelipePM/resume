@@ -9,21 +9,10 @@ h1 {
 }
 
 .avatar {
-  width: 296px;
-  height: 317px;
-  position: absolute;
-  top: 10px;
-  left: 15px;
-}
-
-.avatar-aditya::before {
-  content: "";
-  display: block;
   width: 332px;
   height: 332px;
   border-radius: 50%;
   background-color: #cbc5c5;
-  z-index: -1;
 }
 
 .contacts {
@@ -32,26 +21,37 @@ h1 {
   font-weight: 600;
 }
 
-.highlighted-text {
-  color: #47a0d9;
+.about-me {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .title {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 48px;
+  color: #333536;
   text-transform: uppercase;
 }
 
 .text {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.12px;
   font-weight: normal;
   color: #626363;
 }
 
-.experience-title {
+.highlighted-text {
+  color: #47a0d9;
+}
+
+.project-experience {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.experience-title {
   font-size: 26px;
   text-transform: uppercase;
+  font-weight: bold;
+  line-height: 32px;
+  letter-spacing: 0.13px;
   color: #47a0d9;
 }
